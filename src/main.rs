@@ -19,9 +19,9 @@ fn spawn(
     let values = [
         Val::Undefined,
         Val::Auto,
-        Val::Px(node_width * 0.5),
+        Val::Px(node_width * 0.75),
         Val::Px(node_width),
-        Val::Percent(50.),
+        Val::Percent(75.),
         Val::Percent(100.),
     ];
     let spacing = 10.;
