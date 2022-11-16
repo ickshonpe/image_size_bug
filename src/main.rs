@@ -103,8 +103,8 @@ fn main() {
     .add_plugins(DefaultPlugins.set(
         WindowPlugin {
             window: WindowDescriptor {
-                width: 900.,
-                height: 900.,
+                width: 670.,
+                height: 790.,
                 ..Default::default()
             },
             ..Default::default()
